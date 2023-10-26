@@ -76,3 +76,14 @@ header nav a:hover{
   height: 10px;
   border-radius: 50%;
 }
+
+.gold{
+  color:rgba(235, 173, 5, 0.897);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding-top:80px;
+}
+
+.text-align{
+  font-size: 20px;
+}
