@@ -1,36 +1,41 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
   
-  *{
-    margin: 0;
-    padding:0;
+*{
+margin: 0;
+padding:0;
     box-sizing: border-box;
-  }
-  body{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size:12pt;
-  }
-  a{
-    text-decoration: none;
-    color: #2e2925;
-  }
+}
+
+body{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size:12pt;
+}
+
+a{
+  text-decoration: none;
+  color: #2e2925;
+}
+
 header{
-    background-color: #23160c;
-    opacity:0.9;
-    color:#eee;
-    text-align: center;   
+  background-color: #23160c;
+  opacity:0.9;
+  color:#eee;
+  text-align: center;   
 }
 
 header nav a{
-    text-decoration: none;
-    color:#ddb99d;
-    display: inline-block;
-    padding: 10px
+  text-decoration: none;
+  color:#ddb99d;
+  display: inline-block;
+  padding: 10px
 }
+
 header nav a:hover{
   border-bottom: solid 1px #ddb99d;
   color: #eee;
 }
+
 .right{
   text-align: right;
   text-decoration: none;
@@ -79,11 +84,103 @@ header nav a:hover{
 
 .gold{
   color:rgba(235, 173, 5, 0.897);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Monotype Corsiva';
   font-weight: bold;
   padding-top:80px;
 }
 
 .text-align{
   font-size: 20px;
+  text-align: center;
+  font-size: 29px;
 }
+
+.gold-font{
+  color: gold;
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.bold{
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+}
+
+.send{
+  text-align: center;
+  border-top: transparent;
+  border-radius: orange;
+}
+
+.styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(241, 228, 202);
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  border:solid 1px orange;
+  background-color: rgb(rgb(243, 202, 202));
+}
+
+.styled:hover {
+  background-color: black;
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.form-contact input,
+.form-contact textarea{
+  width: 60%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #ddb99d;
+  border:solid 1px #eee;
+  border-radius: 5px;
+}
+.form-contact button{
+  padding: 5px 10px;
+  background-color: white;
+  border:solid 4px #ffaa00;
+}
+
+.form-contact button:hover{
+  background-color: gray;
+  color: #eee;
+}
+
+.info{
+  background-color: gray;
+  color: #eee;
+  text-align: center;
+  background-size: 70%;
+}
+
+/* Mobile */
+@media (max-width:980px) {
+  .logo{
+    display: none;
+  }
+  .flex-nav{
+    flex-direction: column;
+  }
+
+  .flex-nav a{
+    width: 100%;
+  }
+  
+  .navbar-toggler-icon{
+    background-image: url(/Shop/img/icons/bars-solid.svg);
+    border-bottom: #eee;
+  }
+
+}
+
